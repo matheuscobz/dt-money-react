@@ -1,4 +1,5 @@
 import { Header } from "../../components/Header";
+import { Pagination } from "../../components/Pagination";
 import { Summary } from "../../components/Summary";
 import { SearchForm } from "./components/SearchForm";
 import { PriceHighlight, TransactionsContainer, TransactionsTable } from "./styles";
@@ -40,7 +41,12 @@ export function Transactions(){
             </tr>
           </tbody>
         </TransactionsTable>
+
+        <Pagination />
       </TransactionsContainer>
+
+
+      
     </div>
   )
 }
