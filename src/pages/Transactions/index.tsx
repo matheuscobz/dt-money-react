@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Header } from "../../components/Header";
 import { Pagination } from "../../components/Pagination";
 import { Summary } from "../../components/Summary";
@@ -5,6 +6,15 @@ import { SearchForm } from "./components/SearchForm";
 import { PriceHighlight, TransactionsContainer, TransactionsTable } from "./styles";
 
 export function Transactions(){
+  useEffect(() => {
+    fetch("http://localhost:3000/transactions")
+    .then(response => {
+        console.log(response)
+      }
+    )
+  }, [])
+
+
   return (
     <div>
       <Header />
