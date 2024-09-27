@@ -31,6 +31,54 @@
       "category": "Alimentação",
       "price": 12,
       "createdAt": "2024-09-19T18:30:55.212Z"
+    },
+    {
+      "description": "Desenvolvimento",
+      "category": "Venda",
+      "price": 10000,
+      "type": "income",
+      "createdAt": "2024-09-27T18:06:23.067Z",
+      "id": 5
+    },
+    {
+      "description": "Pastel",
+      "category": "Alimentação",
+      "price": 5,
+      "type": "outcome",
+      "createdAt": "2024-09-27T18:14:49.667Z",
+      "id": 6
+    },
+    {
+      "description": "Overwatch 2",
+      "category": "Entretenimento",
+      "price": 60,
+      "type": "income",
+      "createdAt": "2024-09-27T18:18:28.353Z",
+      "id": 7
+    },
+    {
+      "description": "Refrigerante",
+      "category": "Hidratação",
+      "price": 5,
+      "type": "outcome",
+      "createdAt": "2024-09-27T18:19:16.199Z",
+      "id": 8
+    },
+    {
+      "description": "Feijoada",
+      "category": "Alimentação",
+      "price": 20,
+      "type": "outcome",
+      "createdAt": "2024-09-27T18:19:40.538Z",
+      "id": 9
+    },
+    {
+      "description": "Iogurte de Maracujá",
+      "category": "Alimentação",
+      "price": 4,
+      "type": "outcome",
+      "createdAt": "2024-09-27T18:26:36.931Z",
+      "id": 10
     }
   ]
 }
