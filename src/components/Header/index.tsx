@@ -15,9 +15,7 @@ export function Header() {
           </Dialog.Trigger>
 
           <NewTransactionModal />
-
         </Dialog.Root>
-
       </HeaderContent>
     </HeaderContainer>
   )
