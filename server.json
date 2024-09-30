@@ -79,6 +79,14 @@
       "type": "outcome",
       "createdAt": "2024-09-27T18:26:36.931Z",
       "id": 10
+    },
+    {
+      "description": "Jogos",
+      "category": "Entretenimento",
+      "price": 20,
+      "type": "outcome",
+      "createdAt": "2024-09-29T17:12:25.614Z",
+      "id": 11
     }
   ]
 }
